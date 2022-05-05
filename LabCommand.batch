@@ -1,1 +1,21 @@
+Lab_1
+
+1. bash command:
+in general, a shell command is composed of:
+[command] [options] [argument]
+
+2. pipe
+you can use Pipes (|) to stream STDOUT from previous command as STDIN of subsequent
+cat states.txt | wc -l
+
+3. getting help
+if you need help for a specific command, use man [command]
+
+4. Tools for batch scripting
+vim
+• i switch to insert mode
+• Esc back to command mode
+• Navigation: h j k l, by word W w
+• :wq save and exit
+• :q! do not save and exit
 
